@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Daftar Alat Laboratorium</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+    body{
+        background-image: url(https://getwallpapers.com/wallpaper/full/b/6/c/1555820.jpg);
+    }
+    h2{
+        font-family: 'Original Surfer', cursive;
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+    .card p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    }
+    .row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    transform: scale(1.03);
+    background: rgb(116, 209, 186);
+    }
+    .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+}
+ 
+.nav-link {
+    position: relative;
+    color: #EEE;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'poppins';
+    padding: 12px;
+    margin: 0 18px;
+}
+ 
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.2s ease-out;
+    background-color: #8cebbb;
+}
+ 
+.nav-link:hover::before {
+    width: 100%;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark dark">
+        <div class="container-fluid ml-auto">
+          <a class="navbar-brand" href="#">LABORATORIUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ketentuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Info Laboratorium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h2 class="text-center font-weight-bold m-5">DAFTAR ALAT LABORATORIUM :</h2>
+    <div class="container">
+
+              <div class="row">
+                  <!--Baris 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="mikroskop.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Mikroskop</h5>
+
+                      <p class="card-text">Kode Alat : 11223344</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_1" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="kawat kasa.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kawat Kasa</h5>
+
+                      <p class="card-text"> Kode Alat : 11223345</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_2" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="centri fuge.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CentriFuge</h5>
+
+                      <p class="card-text">Kode Alat : 11223346</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_3" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="mortar stamper.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mortar Stamper</h5>
+
+                      <p class="card-text">Kode Alat : 11223347</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_4" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+              </div>
+
+              <!--Baris 2-->
+              <div class="row mt-5">
+                  <!--card 5-->
+                <div class="card" style="width: 18rem;">
+                    <img src="rak tabung reaksi.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rak Tabung Reaksi</h5>
+
+                      <p class="card-text">Kode Alat : 11223348</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_5" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+                  
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="PH meter.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PH Meter</h5>
+   
+                      <p class="card-text">Kode Alat : 11223349</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_6" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="labu erlenmeyer.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Labu Erlenmeyer</h5>
+
+                      <p class="card-text">Kode Alat : 11223350</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_7" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="tabung reaksi.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tabung Reaksi</h5>
+
+                      <p class="card-text">Kode Alat : 11223351</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_8" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!--Baris 3-->
+                  <div class="row mt-5">
+                  <div class="card" style="width: 18rem;">
+                      <img src="pipet tetes.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pipet Tetes</h5>
+  
+                        <p class="card-text">Kode Alat : 11223352</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_9" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+                    
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="spatula kaca.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Spatula Kaca</h5>
+     
+                        <p class="card-text">Kode Alat : 11223353</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_10" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+  
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="beakre gelas.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Beakre Gelas </h5>
+  
+                        <p class="card-text">Kode Alat : 11223354</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_11" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+  
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="timbangan analitik.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Timbangan Analitik</h5>
+  
+                        <p class="card-text">Kode Alat : 11223355</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_12" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+                    </div>
+
+                    <!--Baris 4-->
+                    <div class="row mt-5">
+                      <div class="card" style="width: 18rem;">
+                          <img src="kaki tiga.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Kaki Tiga</h5>
+      
+                            <p class="card-text">Kode Alat : 11223356</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_13" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+                        
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="rotator dan mixer.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Rotator dan Mixer</h5>
+         
+                            <p class="card-text">Kode Alat : 11223357</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_14" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+      
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="penjepit tabung reaksi.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Penjepit Tabung Reaksi </h5>
+      
+                            <p class="card-text">Kode Alat : 11223358</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_15" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+      
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="bunsen.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Bunsen</h5>
+      
+                            <p class="card-text">Kode Alat : 11223359</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_16" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+                        </div>
+
+                        <!--Baris 5-->
+                        <div class="row mt-5">
+                          <div class="card" style="width: 18rem;">
+                              <img src="corong kaca.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Corong Kaca</h5>
+          
+                                <p class="card-text">Kode Alat : 11223360</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_17" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+                            
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="sarung tangan.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Sarung Tangan</h5>
+             
+                                <p class="card-text">Kode Alat : 11223361</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_18" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+          
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="mikropipet.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Mikropipet </h5>
+          
+                                <p class="card-text">Kode Alat : 11223362</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_19" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+          
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="mikroskop elektron.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Mikroskop Elektron</h5>
+          
+                                <p class="card-text">Kode Alat : 11223363</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_20" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+                            </div>
+              </div>
+              </div>
+              <!--Modal1-->
+              <div class="modal fade" id="produk_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="mikroskop.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Mikroskop</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Mengamati objek yang ukurannya sangat kecil</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>23 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>Lensa Okuler, Tabung Mikroskop, Revolver, Lensa Objektif, Diafragma, Cermin, Makrometer/Mikrometer</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal2-->
+              <div class="modal fade" id="produk_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="kawat kasa.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Kawat Kasa</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Menahan beaker atau labu ketika proses pemanasan menggunakan pemanas bunsen atau pemanas spiritus</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>20 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>-</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal3-->
+              <div class="modal fade" id="produk_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="centri fuge.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>CentriFuge</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Memisahkan partikel organel yang larut sehingga membentuk endapan yang terpisah berdasarkan perbedaan massa jenis dari partikel pembentuk larutan tersebut</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>20 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td> Rotor, Drive Shaft, Motor</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal4-->
+              <div class="modal fade" id="produk_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="mortar stamper.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Mortar Stamper</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Menggerus atau menumbuk obat-obatan agar menjadi halus</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>21 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>Mortir dan Stamper</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal5-->
+              <div class="modal fade" id="produk_5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="rak tabung reaksi.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Rak Tabung Reaksi</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Tempat untuk meletakkan tabung reaksi yang berjumlah banyak</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>20 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>-</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal6-->
+              <div class="modal fade" id="produk_6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="PH meter.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>PH Meter</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Mengukur pH (kadar keasaman atau basa) suatu cairan</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>25 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>Elektrode Kaca,Elektrode Referensi, Termometer, Amplifier, Mikroprosesor</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal7-->
+              <div class="modal fade" id="produk_7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="labu erlenmeyer.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Labu Erlenmeyer</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat	</th>
+                                    <td>Sebagai alat untuk mengukur, menyimpan, dan mencampur cairan</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>21 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Bagian Alat</th>
+                                    <td>-</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal8-->
+              <div class="modal fade" id="produk_8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="tabung reaksi.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Tabung Reaksi</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Tempat mereaksikan dua larutan/bahan kimia atau lebih, serta sebagai tempat mengembangbiakan mikroba dalam media cair</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>21 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Bagian Alat</th>
+                                  <td>-</td>
+                              </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal9-->
+              <div class="modal fade" id="produk_9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="pipet tetes.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Pipet Tetes</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Memindahkan larutan dari suatu wadah ke wadah lain dengan jumlah yang sangat sedikit dan dengan tingkat ketelitian pengukuran volume yang sangat rendah</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>20 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Bagian Alat</th>
+                                  <td>-</td>
+                              </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--Modal10-->
+                <div class="modal fade" id="produk_10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="spatula kaca.jpeg">
+                                </div>
+                                <div class="col-md-6">
+                                    <table class="table table-borderless">
+                                        <tr>
+                                            <th>Nama Alat</th>
+                                            <td>Spatula Kaca</td>
+                                        </tr>
+                                        <tr>
+                                          <th>Keterangan</th>
+                                          <td></td>
+                                      </tr>
+                                      <tr>
+                                          <th>Fungsi Alat</th>
+                                          <td>Sebagai sendok kecil yang juga digunakan untuk mengambil bahan kimia.</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Ketersediaan Alat</th>
+                                          <td>20 buah</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Bagian Alat</th>
+                                        <td>-</td>
+                                    </tr>
+         
+                                    </table>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                          <!--Modal11-->
+                          <div class="modal fade" id="produk_11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <img src="beakre gelas.jpeg">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <table class="table table-borderless">
+                                              <tr>
+                                                  <th>Nama Alat</th>
+                                                  <td>Beakre Gelas</td>
+                                              </tr>
+                                              <tr>
+                                                <th>Keterangan</th>
+                                                <td>kondisi baik</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Fungsi Alat</th>
+                                                <td>Sebagai tempat mereaksikan bahan, tempat menampung bahan kimia berupa larutan, padatan, pasta ataupun tepung, tempat melarutkan bahan dan tempat memanaskan bahan</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Ketersediaan Alat</th>
+                                                <td>1 buah</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Bagian Alat</th>
+                                              <td></td>
+                                          </tr>
+               
+                                          </table>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                      <!--Modal12-->
+                      <div class="modal fade" id="produk_12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <img src="timbangan analitik.jpeg">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <table class="table table-borderless">
+                                          <tr>
+                                              <th>Nama Alat</th>
+                                              <td>Timbangan Analitik</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Keterangan</th>
+                                            <td>kondisi baik</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Fungsi Alat</th>
+                                            <td>Mengukur massa kecil dalam rentang sub-miligram.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Ketersediaan Alat</th>
+                                            <td>20 buah</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>Piringan timbangan, Anak timbangan,  Waterpass, Tombol pengaturan, Tombol mode, Tombol on/off</td>
+                                        </tr>
+           
+                                      </table>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                        <!--Modal13-->
+                        <div class="modal fade" id="produk_13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="kaki tiga.jpeg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Alat</th>
+                                                <td>Kaki Tiga</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Keterangan</th>
+                                              <td>kondisi baik</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Fungsi Alat</th>
+                                              <td>Sebagai penahan kawat kasa dan penyangga ketika proses pemanasan</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Ketersediaan Alat</th>
+                                              <td>25 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>-</td>
+                                        </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal14-->
+                        <div class="modal fade" id="produk_14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="rotator dan mixer.jpeg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Alat</th>
+                                                <td>Rotator  dan Mixer</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Keterangan</th>
+                                              <td>kondisi baik</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Fungsi Alat</th>
+                                              <td>Menggerakan sebuah plat (attachment) dengan gerakan yang memutar. Gerakan satu ini diharapkan bisa mengocok sampel pada wadah yang diletakkan di atasnya</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Ketersediaan Alat</th>
+                                              <td>20 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>Overhead Stirrer, Hot Plate Stirrer, Tube Rotator, Vortex Mixer</td>
+                                        </tr>
+                                          <tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal15-->
+                        <div class="modal fade" id="produk_15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="penjepit tabung reaksi.jpeg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Alat</th>
+                                                <td>Penjepit Tabung Reaksi</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Keterangan</th>
+                                              <td>kondisi baik</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Fungsi Alat</th>
+                                              <td>Digunakan untuk menjepit tabung reaksi disaat proses pemanasan. Atau bisa juga digunakan untuk mengambil kertas saring dan benda-benda lab lain disaat kondisi alat tersebut panas</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Ketersediaan Alat</th>
+                                              <td>30 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>-</td>
+                                        </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal16-->
+                        <div class="modal fade" id="produk_16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="bunsen.jpeg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Alat</th>
+                                                <td>Bunsen</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Keterangan</th>
+                                              <td>kondisi baik</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Fungsi Alat</th>
+                                              <td>Digunakan untuk pemanasan, sterilisasi, dan pembakaran</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Ketersediaan Alat</th>
+                                              <td>28 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>Tabung Logam, Keran Panjang, Dua lubang pada bagian dasar mengendalikan kadar udara yang bercampur dengan gas sehingga menghasilkan api tanpa asap </td>
+                                        </tr>
+             
+                                        </table>
+                                    </div>
+                               l </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal17-->
+                        <div class="modal fade" id="produk_17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="corong kaca.jpeg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Alat</th>
+                                                <td>Corong Kaca</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Keterangan</th>
+                                              <td>kondisi baik</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Fungsi Alat</th>
+                                              <td>Alat bantu untuk memindah / memasukkan larutan ke wadah / tempat yang mempunyaai dimensi pemasukkan sampel bahan kecil.</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Ketersediaan Alat</th>
+                                              <td>22 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Bagian Alat</th>
+                                            <td>-</td>
+                                        </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+              <!--Modal18-->
+              <div class="modal fade" id="produk_18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="sarung tangan.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Sarung Tangan</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>menahan efek dari zat kimia yang bisa merusak kulit</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>30 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Bagian Alat</th>
+                                  <td>-</td>
+                              </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                            <!--Modal19-->
+                            <div class="modal fade" id="produk_19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="mikropipet.jpeg">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Nama Alat</th>
+                                                    <td>Mikropipet</td>
+                                                </tr>
+                                                <tr>
+                                                  <th>Keterangan</th>
+                                                  <td>kondisi baik</td>
+                                              </tr>
+                                              <tr>
+                                                  <th>Fungsi Alat</th>
+                                                  <td>Memindahkan cairan dalam jumlah kecil secara akurat</td>
+                                              </tr>
+                                              <tr>
+                                                  <th>Ketersediaan Alat</th>
+                                                  <td>25 buah</td>
+                                              </tr>
+                                              <tr>
+                                                <th>Bagian Alat</th>
+                                                <td>Plunger button, Shaft, Volume adjustment knob, Plastic tip,Ejector arm, Tip ejector button</td>
+                                            </tr>
+                 
+                                            </table>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              <!--Moda20-->
+              <div class="modal fade" id="produk_20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="mikroskop elektron.jpeg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Alat</th>
+                                      <td>Mikroskop Elektron</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Keterangan</th>
+                                    <td>kondisi baik</td>
+                                </tr>
+                                <tr>
+                                    <th>Fungsi Alat</th>
+                                    <td>Melakukan pembesaran objek sampai 2 juta kali, yang menggunakan elektro statik dan elektro magnetik untuk mengontrol pencahayaan dan tampilan gambar serta memiliki kemampuan pembesaran objek serta resolusi yang jauh lebih bagus</td>
+                                </tr>
+                                <tr>
+                                    <th>Ketersediaan Alat</th>
+                                    <td>20 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Bagian Alat</th>
+                                  <td>Lensa Okuler, Tabung Mikroskop, Revolver, Lensa Objektif, Diafragma, Cermin, Makrometer/Mikrometer</td>
+                                </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div><br><br>
+      <footer class="bg-secondary text-white p-4">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>DEVELOPER TEAM :</h5>
+                  <ul>
+                      <li>Nivshea Estetica</li>
+                      <li>Lydwina Gracella Purba</li>
+                      <li>Easter Jeconia Sianipar</li>
+                      <li>Tito Simatupang</li>
+                      <li>Rosa Stevanni Sinaga</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>TENTANG KAMI :</h5>
+                  <p>Tujuan Team Developer membangun website "Manajemen Laboratorium" yaitu untuk mempermudah Mahasiswa dalam melakukan kegiatan peminjaman Alat-Alat Laboratorium</p>
+              </div>
+              <div class="col-md-3">
+                  <h5>MITRA KERJA :</h5>
+                  <ul>
+                      <li>Institut Teknologi DEL</li>
+                      <li>PSW II</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>CONTACT PERSON :</h5>
+                  <ul>
+                      <li>0896-1328-1829 (Tito Simatupang)</li>
+                      <li>0852-6969-8802 (Lydwina Gracella)</li>
+                      <li>0852-6357-0157 (Nivshea Estetica)</li>
+                      <li>0853-7364-1415 (Rosa Sinaga)</li>
+                      <li>0895-1760-5628 (Easter Sianipar)</li>
+                  </ul>
+              </div>
+          </div>
+          <center><h6>Kelompok 11</h6></center>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+</body>
+</html>

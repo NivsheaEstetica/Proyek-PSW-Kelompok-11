@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Daftar Alat Laboratorium</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+    body{
+        background-image: url(https://getwallpapers.com/wallpaper/full/b/6/c/1555820.jpg);
+    }
+    h2{
+        font-family: 'Original Surfer', cursive;
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+    .card p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+    }
+    .row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    transform: scale(1.03);
+    background: rgb(160, 255, 250);
+    }
+    .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+}
+ 
+.nav-link {
+    position: relative;
+    color: #EEE;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'poppins';
+    padding: 12px;
+    margin: 0 18px;
+}
+ 
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.2s ease-out;
+    background-color: #FF5151;
+}
+ 
+.nav-link:hover::before {
+    width: 100%;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark dark">
+        <div class="container-fluid ml-auto">
+          <a class="navbar-brand" href="#">LABORATORIUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ketentuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Info Laboratorium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h2 class="text-center font-weight-bold m-5">DAFTAR ALAT LABORATORIUM :</h2>
+    <div class="container">
+
+              <div class="row">
+                  <!--Baris 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="mikroskop.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Mikroskop</h5>
+
+                      <p class="card-text">Sumatera Utara Free ongkir</p>
+                      <p class="card-text">IDR : Rp.50.000 ~ Rp.70.000</p>
+                      <p class="card-text">Discount : 24 %</p>
+                      <p class="card-text">SAMSUNG - Indonesia</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_1" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/headphone.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kawat Kasa</h5>
+
+                      <p class="card-text">Disk Ongkir : -3 % (Kab.Toba)</p>
+                      <p class="card-text">IDR : Rp.476.000 ~ Rp.600.000</p>
+                      <p class="card-text">Headphone Gaming RGB Light</p>
+                      <p class="card-text">Aula Gaming Ltd.</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_2" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/Mouse.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CentriFuge</h5>
+
+                      <p class="card-text">TUF Mouse Gaming</p>
+                      <p class="card-text">IDR : Rp.899.000 ~ Rp.1.900.000</p>
+                      <p class="card-text">ASUS Indonesia</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_3" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/Keyboard.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mortar Stamper</h5>
+
+                      <p class="card-text">Kab.Toba, Indonesia</p>
+                      <p class="card-text">IDR : Rp.130.000 ~ Rp.150.000</p>
+                      <p class="card-text">Discount : -2%</p>
+                      <p class="card-text">Genius - Indonesia Corp.</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_4" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+              </div>
+
+              <!--Baris 2-->
+              <div class="row mt-5">
+                  <!--card 5-->
+                <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/Charger TUF.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rak Tabung Reaksi</h5>
+
+                      <p class="card-text">Jakarta Utara, Indonesia</p>
+                      <p class="card-text">IDR : Rp.950.000 ~ Rp.1.070.000</p>
+                      <p class="card-text">ASUS Indonesia - Orginal</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_5" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+                  
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/Charger Oppo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PH Meter</h5>
+   
+                      <p class="card-text">Disk Ongkir : -15 %</p>
+                      <p class="card-text">IDR : Rp.70.000 ~ Rp.150.000</p>
+                      <p class="card-text">Cashback : Rp.10.000</p>
+                      <p class="card-text">OPPO - Indonesia ~ Original</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_6" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/casing oppo a7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Labu Erlemeyer </h5>
+
+                      <p class="card-text">Tarutung, Kab.Tapanuli Utara</p>
+                      <p class="card-text">Ongkir : - 2%</p>
+                      <p class="card-text">Harga : Rp.25.000 ~ Rp.50.000</p>
+                      <p class="card-text">Oppo A7 Casing-Black</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_7" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="gambar aksesoris/USB.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tabung Reaksi</h5>
+
+                      <p class="card-text">Jakarta Selatan, Indonesia</p>
+                      <p class="card-text">Harga : US $ 24,30 ~ US $39,69</p>
+                      <p class="card-text">Fuzhou Pen-Drive China</p>
+                      <a href="#" class="btn btn-primary" data-bs-target="#produk_8" data-bs-toggle="modal">Detail</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!--Baris 3-->
+                  <div class="row mt-5">
+                  <div class="card" style="width: 18rem;">
+                      <img src="gambar aksesoris/Charger TUF.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pipet Tetes</h5>
+  
+                        <p class="card-text">Jakarta Utara, Indonesia</p>
+                        <p class="card-text">IDR : Rp.950.000 ~ Rp.1.070.000</p>
+                        <p class="card-text">ASUS Indonesia - Orginal</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_9" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+                    
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="gambar aksesoris/Charger Oppo.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Spatula Kaca</h5>
+     
+                        <p class="card-text">Disk Ongkir : -15 %</p>
+                        <p class="card-text">IDR : Rp.70.000 ~ Rp.150.000</p>
+                        <p class="card-text">Cashback : Rp.10.000</p>
+                        <p class="card-text">OPPO - Indonesia ~ Original</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_10" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+  
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="gambar aksesoris/casing oppo a7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Beakre Gelas </h5>
+  
+                        <p class="card-text">Tarutung, Kab.Tapanuli Utara</p>
+                        <p class="card-text">Ongkir : - 2%</p>
+                        <p class="card-text">Harga : Rp.25.000 ~ Rp.50.000</p>
+                        <p class="card-text">Oppo A7 Casing-Black</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_11" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+  
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="gambar aksesoris/USB.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Timbangan Analitik</h5>
+  
+                        <p class="card-text">Jakarta Selatan, Indonesia</p>
+                        <p class="card-text">Harga : US $ 24,30 ~ US $39,69</p>
+                        <p class="card-text">Fuzhou Pen-Drive China</p>
+                        <a href="#" class="btn btn-primary" data-bs-target="#produk_12" data-bs-toggle="modal">Detail</a>
+                      </div>
+                    </div>
+                    </div>
+
+                    <!--Baris 4-->
+                    <div class="row mt-5">
+                      <div class="card" style="width: 18rem;">
+                          <img src="gambar aksesoris/Charger TUF.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Kaki Tiga</h5>
+      
+                            <p class="card-text">Jakarta Utara, Indonesia</p>
+                            <p class="card-text">IDR : Rp.950.000 ~ Rp.1.070.000</p>
+                            <p class="card-text">ASUS Indonesia - Orginal</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_13" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+                        
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="gambar aksesoris/Charger Oppo.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Rotator dan Mixer</h5>
+         
+                            <p class="card-text">Disk Ongkir : -15 %</p>
+                            <p class="card-text">IDR : Rp.70.000 ~ Rp.150.000</p>
+                            <p class="card-text">Cashback : Rp.10.000</p>
+                            <p class="card-text">OPPO - Indonesia ~ Original</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_14" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+      
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="gambar aksesoris/casing oppo a7.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Penjepit Tabung Reaksi </h5>
+      
+                            <p class="card-text">Tarutung, Kab.Tapanuli Utara</p>
+                            <p class="card-text">Ongkir : - 2%</p>
+                            <p class="card-text">Harga : Rp.25.000 ~ Rp.50.000</p>
+                            <p class="card-text">Oppo A7 Casing-Black</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_15" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+      
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="gambar aksesoris/USB.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Bunsen</h5>
+      
+                            <p class="card-text">Jakarta Selatan, Indonesia</p>
+                            <p class="card-text">Harga : US $ 24,30 ~ US $39,69</p>
+                            <p class="card-text">Fuzhou Pen-Drive China</p>
+                            <a href="#" class="btn btn-primary" data-bs-target="#produk_16" data-bs-toggle="modal">Detail</a>
+                          </div>
+                        </div>
+                        </div>
+
+                        <!--Baris 5-->
+                        <div class="row mt-5">
+                          <div class="card" style="width: 18rem;">
+                              <img src="gambar aksesoris/Charger TUF.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Corong Kaca</h5>
+          
+                                <p class="card-text">Jakarta Utara, Indonesia</p>
+                                <p class="card-text">IDR : Rp.950.000 ~ Rp.1.070.000</p>
+                                <p class="card-text">ASUS Indonesia - Orginal</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_17" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+                            
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="gambar aksesoris/Charger Oppo.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Sarung Tangan</h5>
+             
+                                <p class="card-text">Disk Ongkir : -15 %</p>
+                                <p class="card-text">IDR : Rp.70.000 ~ Rp.150.000</p>
+                                <p class="card-text">Cashback : Rp.10.000</p>
+                                <p class="card-text">OPPO - Indonesia ~ Original</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_18" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+          
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="gambar aksesoris/casing oppo a7.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Mikropipet </h5>
+          
+                                <p class="card-text">Tarutung, Kab.Tapanuli Utara</p>
+                                <p class="card-text">Ongkir : - 2%</p>
+                                <p class="card-text">Harga : Rp.25.000 ~ Rp.50.000</p>
+                                <p class="card-text">Oppo A7 Casing-Black</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_19" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+          
+
+                            <div class="card" style="width: 18rem;">
+                              <img src="gambar aksesoris/USB.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Mikroskop Elektron</h5>
+          
+                                <p class="card-text">Jakarta Selatan, Indonesia</p>
+                                <p class="card-text">Harga : US $ 24,30 ~ US $39,69</p>
+                                <p class="card-text">Fuzhou Pen-Drive China</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#produk_20" data-bs-toggle="modal">Detail</a>
+                              </div>
+                            </div>
+                            </div>
+              </div>
+              </div>
+              <!--Modal1-->
+              <div class="modal fade" id="produk_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/Earphone.png">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Earphone Samsung Original</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>S8 S8 Plus AKG EO-IG955</td>
+                                </tr>
+                                <tr>
+                                    <th>Buatan</th>
+                                    <td>China</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>258 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal2-->
+              <div class="modal fade" id="produk_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="mikroskop.png">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Aula Gaming Headphone</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>AULA S602 RGB Virtual 7.1 Surround Sound GAMING Headphone With 360° Microphone – USB 7.1</td>
+                                </tr>
+                                <tr>
+                                    <th>Buatan</th>
+                                    <td>Tarantula Lab.</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>3 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal3-->
+              <div class="modal fade" id="produk_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/Mouse.png">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Mouse TUF Gaming</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>ASUS TUF Gaming M5 ambidextrous ergonomic RGB gaming mouse</td>
+                                </tr>
+                                <tr>
+                                    <th>Buatan</th>
+                                    <td>ASUS Corp.</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>25 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express,POS Indonesia</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal4-->
+              <div class="modal fade" id="produk_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/Keyboard.png">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Gaming Keyboard Genius SCORPION K6</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>12 Fn Hotkeys, Spill-resistant, Blue backlight, Black, USB , Mechanical-feel, 19 Anti-ghosting keys, Smart gaming settings</td>
+                                </tr>
+                                <tr>
+                                    <th>Buatan</th>
+                                    <td>Taturi Corp.</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>21 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>J&T, POS Indonesia</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal5-->
+              <div class="modal fade" id="produk_5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/Charger TUF.png">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Charger TUF Gaming FX505</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>charger ASUS (6.0x3.7) SLIM 19V 6.32A
+
+                                      Tuf Gaming FX505, DY FX705, FX505GD</td>
+                                </tr>
+                                <tr>
+                                    <th>Buatan</th>
+                                    <td>ASUS Corp-China</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>14 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia</td>
+                                </tr>
+
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal6-->
+              <div class="modal fade" id="produk_6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/Charger Oppo.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Charger OPPO A7</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Model</th>
+                                    <td>Travel Adapter</td>
+                                </tr>
+                                <tr>
+                                    <th>Input</th>
+                                    <td>100 V - 240 V</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>25 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia, TIKI</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal7-->
+              <div class="modal fade" id="produk_7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/casing oppo a7.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Casing OPPO A7</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Status</th>
+                                    <td>Baru dan Original</td>
+                                </tr>
+                                <tr>
+                                    <th>Warna</th>
+                                    <td>Hitam</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>245 buah</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia</td>
+                                </tr>
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal8-->
+              <div class="modal fade" id="produk_8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/USB.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>USB 128 GB 3.0 Pen Drive</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                </tr>
+                                <tr>
+                                    <th>Penyimpanan</th>
+                                    <td>64 GB / 128 GB/ 2TB</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>1 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Fitur Utama</th>
+                                  <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                              </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Modal9-->
+              <div class="modal fade" id="produk_9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/USB.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>USB 128 GB 3.0 Pen Drive</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                </tr>
+                                <tr>
+                                    <th>Penyimpanan</th>
+                                    <td>64 GB / 128 GB/ 2TB</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>1 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Fitur Utama</th>
+                                  <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                              </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--Modal10-->
+                <div class="modal fade" id="produk_10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="gambar aksesoris/USB.jpg">
+                                </div>
+                                <div class="col-md-6">
+                                    <table class="table table-borderless">
+                                        <tr>
+                                            <th>Nama Produk</th>
+                                            <td>USB 128 GB 3.0 Pen Drive</td>
+                                        </tr>
+                                        <tr>
+                                          <th>Tipe</th>
+                                          <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Penyimpanan</th>
+                                          <td>64 GB / 128 GB/ 2TB</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Jumlah Stock</th>
+                                          <td>1 buah</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Fitur Utama</th>
+                                        <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                    </tr>
+                                      <tr>
+                                          <th>Jasa Kirim</th>
+                                          <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                      </tr>
+         
+                                    </table>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                          <!--Modal11-->
+                          <div class="modal fade" id="produk_11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <img src="gambar aksesoris/USB.jpg">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <table class="table table-borderless">
+                                              <tr>
+                                                  <th>Nama Produk</th>
+                                                  <td>USB 128 GB 3.0 Pen Drive</td>
+                                              </tr>
+                                              <tr>
+                                                <th>Tipe</th>
+                                                <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Penyimpanan</th>
+                                                <td>64 GB / 128 GB/ 2TB</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Jumlah Stock</th>
+                                                <td>1 buah</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Fitur Utama</th>
+                                              <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                          </tr>
+                                            <tr>
+                                                <th>Jasa Kirim</th>
+                                                <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                            </tr>
+               
+                                          </table>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                      <!--Modal12-->
+                      <div class="modal fade" id="produk_12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <img src="gambar aksesoris/USB.jpg">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <table class="table table-borderless">
+                                          <tr>
+                                              <th>Nama Produk</th>
+                                              <td>USB 128 GB 3.0 Pen Drive</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Tipe</th>
+                                            <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Penyimpanan</th>
+                                            <td>64 GB / 128 GB/ 2TB</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Jumlah Stock</th>
+                                            <td>1 buah</td>
+                                        </tr>
+                                        <tr>
+                                          <th>Fitur Utama</th>
+                                          <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                      </tr>
+                                        <tr>
+                                            <th>Jasa Kirim</th>
+                                            <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                        </tr>
+           
+                                      </table>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                        <!--Modal13-->
+                        <div class="modal fade" id="produk_13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="gambar aksesoris/USB.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Produk</th>
+                                                <td>USB 128 GB 3.0 Pen Drive</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Tipe</th>
+                                              <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Penyimpanan</th>
+                                              <td>64 GB / 128 GB/ 2TB</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Jumlah Stock</th>
+                                              <td>1 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Fitur Utama</th>
+                                            <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                        </tr>
+                                          <tr>
+                                              <th>Jasa Kirim</th>
+                                              <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                          </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal14-->
+                        <div class="modal fade" id="produk_14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="gambar aksesoris/USB.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Produk</th>
+                                                <td>USB 128 GB 3.0 Pen Drive</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Tipe</th>
+                                              <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Penyimpanan</th>
+                                              <td>64 GB / 128 GB/ 2TB</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Jumlah Stock</th>
+                                              <td>1 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Fitur Utama</th>
+                                            <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                        </tr>
+                                          <tr>
+                                              <th>Jasa Kirim</th>
+                                              <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                          </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal15-->
+                        <div class="modal fade" id="produk_15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="gambar aksesoris/USB.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Produk</th>
+                                                <td>USB 128 GB 3.0 Pen Drive</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Tipe</th>
+                                              <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Penyimpanan</th>
+                                              <td>64 GB / 128 GB/ 2TB</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Jumlah Stock</th>
+                                              <td>1 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Fitur Utama</th>
+                                            <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                        </tr>
+                                          <tr>
+                                              <th>Jasa Kirim</th>
+                                              <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                          </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal16-->
+                        <div class="modal fade" id="produk_16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="gambar aksesoris/USB.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Produk</th>
+                                                <td>USB 128 GB 3.0 Pen Drive</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Tipe</th>
+                                              <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Penyimpanan</th>
+                                              <td>64 GB / 128 GB/ 2TB</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Jumlah Stock</th>
+                                              <td>1 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Fitur Utama</th>
+                                            <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                        </tr>
+                                          <tr>
+                                              <th>Jasa Kirim</th>
+                                              <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                          </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Modal17-->
+                        <div class="modal fade" id="produk_17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="gambar aksesoris/USB.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <th>Nama Produk</th>
+                                                <td>USB 128 GB 3.0 Pen Drive</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Tipe</th>
+                                              <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Penyimpanan</th>
+                                              <td>64 GB / 128 GB/ 2TB</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Jumlah Stock</th>
+                                              <td>1 buah</td>
+                                          </tr>
+                                          <tr>
+                                            <th>Fitur Utama</th>
+                                            <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                        </tr>
+                                          <tr>
+                                              <th>Jasa Kirim</th>
+                                              <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                          </tr>
+             
+                                        </table>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+              <!--Modal18-->
+              <div class="modal fade" id="produk_18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/USB.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>USB 128 GB 3.0 Pen Drive</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                </tr>
+                                <tr>
+                                    <th>Penyimpanan</th>
+                                    <td>64 GB / 128 GB/ 2TB</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>1 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Fitur Utama</th>
+                                  <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                              </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                            <!--Modal19-->
+                            <div class="modal fade" id="produk_19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="gambar aksesoris/USB.jpg">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <table class="table table-borderless">
+                                                <tr>
+                                                    <th>Nama Produk</th>
+                                                    <td>USB 128 GB 3.0 Pen Drive</td>
+                                                </tr>
+                                                <tr>
+                                                  <th>Tipe</th>
+                                                  <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                              </tr>
+                                              <tr>
+                                                  <th>Penyimpanan</th>
+                                                  <td>64 GB / 128 GB/ 2TB</td>
+                                              </tr>
+                                              <tr>
+                                                  <th>Jumlah Stock</th>
+                                                  <td>1 buah</td>
+                                              </tr>
+                                              <tr>
+                                                <th>Fitur Utama</th>
+                                                <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                                            </tr>
+                                              <tr>
+                                                  <th>Jasa Kirim</th>
+                                                  <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                              </tr>
+                 
+                                            </table>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              <!--Moda20-->
+              <div class="modal fade" id="produk_20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Produk :</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <img src="gambar aksesoris/USB.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <table class="table table-borderless">
+                                  <tr>
+                                      <th>Nama Produk</th>
+                                      <td>USB 128 GB 3.0 Pen Drive</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tipe</th>
+                                    <td>DM PD061 USB Flash Drive dengan 128 GB Sidik Jari Dienkripsi Usb Flashdisk 64 GB USB 3.0 Pen Drive Keamanan 32 GB Flashdisk Memori Disk</td>
+                                </tr>
+                                <tr>
+                                    <th>Penyimpanan</th>
+                                    <td>64 GB / 128 GB/ 2TB</td>
+                                </tr>
+                                <tr>
+                                    <th>Jumlah Stock</th>
+                                    <td>1 buah</td>
+                                </tr>
+                                <tr>
+                                  <th>Fitur Utama</th>
+                                  <td>Kompatibilitas sistem: windows XP/SP3/Vista/7/8/8.1/10 (64bit) /Linux/Mac yang dapat memverifikasi sidik jari untuk membuka enkripsi disk</td>
+                              </tr>
+                                <tr>
+                                    <th>Jasa Kirim</th>
+                                    <td>JNE, JNE Express, J&T, POS Indonesia, </td>
+                                </tr>
+   
+                              </table>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div><br><br>
+      <footer class="bg-secondary text-white p-4">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>DEVELOPER TEAM :</h5>
+                  <ul>
+                      <li>Nivshea Estetica</li>
+                      <li>Lydwina Gracella Purba</li>
+                      <li>Easter Sianipar</li>
+                      <li>Tito Simatupang</li>
+                      <li>Rosa Sinaga</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>TENTANG KAMI :</h5>
+                  <p>Kami dari Mahasiswa Institut Teknologi Del, dari Prodi D4 TRPL . Kelompok kami merupakan calon developer yang akan menguasai sesuai dengan bidang keahlian kami, apabila ada kesalahan mohon dimaafkan</p>
+              </div>
+              <div class="col-md-3">
+                  <h5>MITRA KERJA :</h5>
+                  <ul>
+                      <li>Institut Teknologi DEL</li>
+                      <li>PSW II</li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>CONTACT PERSON :</h5>
+                  <ul>
+                      <li>0852-6375-0157 (Nivshea Estetica)</li>
+                      <li>0852-6969-8802 (Lydwina Gracella Purba)</li>
+                  </ul>
+              </div>
+          </div>
+          <center><h6>2021&copy;Copyright Kelompok 11  All Rights Reserved</h6></center>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+</body>
+</html>
